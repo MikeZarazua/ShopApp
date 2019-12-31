@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--InitialMarketViewController-->
+        <scene sceneID="Fqu-as-C8K">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InitialMarketViewController" id="nKj-0k-K49" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qPF-aB-cVj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wZ3-hb-9wn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1528" y="157"/>
+        </scene>
+        <!--Tab Bar Controller Market-->
+        <scene sceneID="LUg-7T-0Vj">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarControllerMarket" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M3d-s0-FtJ" customClass="TabBarControllerMarket" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="27N-zL-qPj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHO-z0-LMt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-572" y="-257"/>
+        </scene>
+    </scenes>
+</document>
